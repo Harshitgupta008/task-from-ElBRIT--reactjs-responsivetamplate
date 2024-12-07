@@ -11,16 +11,16 @@ import image5 from "../image/image5.png"
 import image6 from "../image/image6.png"
 const HeroSection = () => {
     return <>
-        <div className="h-fit w-full px-2">
-            <div className="h-2 w-full bg-red-400">
-                <div className="pb-36 bg-custom-blue">
+        <div className="h-fit w-full  px-2">
+            <div className="h-fit  w-full">
+                <div className="pb-36 h-fit w-full bg-custom-blue">
                     <div className="h-fit w-full bg-custom-blue flex flex-col  justify-center items-center pt-9 pb-28">
                         <h1 className="text-custom-text-color font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-4">Essential Vitamins</h1>
 
                         <div className="flex flex-wrap flex-col md:flex-row justify-center items-center gap-20 md:gap-10  mt-3">
                             <div className="flex flex-col gap-2 items-center justify-center">
                                 <h1 className="text-gray-500 mt-1">Online Medical Suppiles</h1>
-                                <h1 className="text-custom-text-color2 text-lg font-medium mt-1">Get Your Vitamins <br /> & Minerals</h1>
+                                <h1 className="text-custom-text-color2 text-lg font-semibold mt-1">Get Your Vitamins <br /> & Minerals</h1>
                                 <button className="bg-custom-text-color2 text-white px-6 py-1 rounded-full mt-1">EXPLORE</button>
                             </div>
                             <div className="relative h-72 w-72 flex items-center justify-center">
@@ -34,7 +34,7 @@ const HeroSection = () => {
                                         <img className="h-16 w-16" src={vitaminimage} alt="" />
                                     </div>
                                     <div>
-                                        <h1 className="text-custom-text-color2 text-lg font-medium">Vitamins</h1>
+                                        <h1 className="text-custom-text-color2 text-lg font-semibold">Vitamins</h1>
                                         <p className="text-gray-500">Increased Vitamins and <br /> Minerals in your diet</p>
                                     </div>
                                 </div>
@@ -43,7 +43,7 @@ const HeroSection = () => {
                                         <img className="h-16 w-16" src={weightimage} alt="" />
                                     </div>
                                     <div>
-                                        <h1 className="text-custom-text-color2 text-lg font-medium">Weight Loss</h1>
+                                        <h1 className="text-custom-text-color2 text-lg font-semibold">Weight Loss</h1>
                                         <p className="text-gray-500">Weight Loss <br /> Find scientifically proven solutions</p>
                                     </div>
                                 </div>
@@ -52,7 +52,7 @@ const HeroSection = () => {
                                         <img className="h-16 w-16" src={foodimage} alt="" />
                                     </div>
                                     <div>
-                                        <h1 className="text-custom-text-color2 text-lg font-medium">Functional Foods</h1>
+                                        <h1 className="text-custom-text-color2 text-lg font-semibold">Functional Foods</h1>
                                         <p className="text-gray-500">Functional Foods <br />
                                             From protein powers to baby formula</p>
                                     </div>
@@ -66,8 +66,8 @@ const HeroSection = () => {
                     </div>
                 </div>
                 <div className="w-full relative top-[-180px] flex justify-center  items-center  ">
-                    <div className="bg-custom-text-color2 py-4 px-24  rounded-[60px] h-fit w-fit">
-                        <div className="w-fit h-fit relative top-[-70px] text-white grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3  ">
+                    <div className="bg-custom-text-color2 py-4 px-10 sm:px-24  rounded-[60px] h-fit w-fit">
+                        <div className="w-fit h-fit relative top-[-70px] text-white grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3  ">
                             <HeroSectionCard image={image1} title={"Clinically Studied"} discreption={`All products that we offer have \ undergone lab and safety tests`} />
                             <HeroSectionCard image={image2}  title={"Vegetarian Friendly"} discreption={`We have a wide selection of vegetarian \ products to meet your needs`} />
                             <HeroSectionCard image={image3}  title={"Made in India"} discreption={`Shop local and explore health products \ made right here in India`} />

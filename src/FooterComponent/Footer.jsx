@@ -22,9 +22,9 @@ const Footer = () => {
                             o find the necessary vitamins.</p>
                     </div>
                 </div>
-                <div className="flex  gap-2 items-center">
+                <div className="flex px-2 sm:px-0 flex-wrap gap-2 items-center">
                     <img src={location} className="h-4 w-4" alt="" />
-                    <p className="text-sm text-gray-300">Elbrit Life Sciences Private Limited. C20, BKC, G Block, Mumbai 400051</p>
+                    <p className="text-sm  text-gray-300">Elbrit Life Sciences Private Limited. C20, BKC, G Block, Mumbai 400051</p>
                 </div>
             </div>
 
